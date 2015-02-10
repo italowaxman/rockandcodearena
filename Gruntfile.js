@@ -57,7 +57,7 @@ module.exports = function(grunt) {
         cssmin: {
             dist: {
                 files: {
-                    '<%= dirs.css %>/build/style.min.css': [ '<%= dirs.cssboot %>/*.css', '<%= dirs.css %>/normalize.css', '<%= dirs.css %>/style.css', '<%= dirs.css %>/responsive.css']
+                    '<%= dirs.css %>/build/style.min.css': [ '<%= dirs.cssboot %>/*.css', '<%= dirs.css %>/normalize.css', '<%= dirs.css %>/style-animations.css', '<%= dirs.css %>/style.css', '<%= dirs.css %>/responsive.css']
                 }
             }
         },

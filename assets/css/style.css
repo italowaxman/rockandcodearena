@@ -106,6 +106,10 @@ textarea {
     padding: 0;
     list-style: none;
     font-family: 'LAKAMEALEON';
+    letter-spacing: 2px;
+    transition: all 350ms ease 0s;
+}
+h1,h2,h3,h4,h5{
     font-weight: lighter;
 }
 html,body{
@@ -114,6 +118,7 @@ html,body{
 }
 body {
   background: #000; 
+  overflow-x: hidden;
 }
 video { 
   position: fixed;
@@ -144,33 +149,122 @@ video {
 .stopfade { 
    opacity: .5;
 }
-
-/* This parent can be any width and height */
 .block {
   text-align: center;
   height: 100%;
 }
- 
-/* The ghost, nudged to maintain perfect centering */
+
 .block:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
+  margin-right: -0.25em;
 }
-
-/* The element to be centered, can
-   also be of any width and height */ 
 .centered {
   display: inline-block;
   vertical-align: middle;
-  width: 300px;
+  width: 940px;
   margin: 0 auto;
 }
-
-
-
+.logo-block{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.logo,
+.thunder{
+    float: left;
+    visibility: hidden;
+}
+.logo{
+    margin: 0 40px;
+    visibility: hidden;
+}
+.logo svg{
+    width: 220px;
+    height: auto;
+}
+.thunder img{
+    width: 100px;
+    height: 136px;
+}
+.info-block{
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+.info-block h2{
+    font-size: 180px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-shadow: 0 8px 4px rgba(0, 0, 0, 0.45);
+     visibility: hidden;
+}
+.info-block h2 span{
+    color: #c0c0c0;
+}
+.info-block h4{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 4px;
+    float: left;
+    width: 100%;
+    margin-top: -78px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+    visibility: hidden;
+}
+.info-block h4 span,
+.info-block h3 span{
+    color: #fbe664;
+}
+.info-block h3{
+    font-size: 116px;
+    color: #fff;
+    float: left; 
+    width: 100%;
+    margin-top: -56px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+    visibility: hidden;
+}
+.buttons-block{
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-top: -22px;
+}
+.button-inscrever{
+    background: rgba(69,208,46,0.1);
+    border: solid 5px #97d08e;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 32%;
+    padding: 6px 0;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+    visibility: hidden;
+}
+.button-inscrever h4{
+    color: #97d08e;
+    font-size: 44px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.button-inscrever p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: -16px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.button-inscrever:hover{
+    background: #97d08e;
+}
+.button-inscrever:hover h4{
+    color: #fff;
+}
+.
 
 
 

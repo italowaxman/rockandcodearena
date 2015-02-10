@@ -1,19 +1,108 @@
 /* Large desktop */
-@media (max-width: 1200px) {
-	
+@media (max-width: 1280px) {
+	.logo svg{
+		width: 200px;
+	}
+	.info-block{
+		margin-top: -80px;
+	}
+	.info-block h2{
+		font-size: 140px;
+	}
+	.info-block h4{
+		margin-top: -60px;
+		font-size: 30px;
+	}
+	.info-block h3{
+		font-size: 90px;
+		margin-top: -44px;
+	}
+	.button-inscrever{
+		width: 25%;
+	}
+	.button-inscrever h4{
+		font-size: 34px;
+	}
+	.button-inscrever p{
+		font-size: 16px;
+	}
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-	
+	.centered{
+		width: 740px;
+	}
+	.button-inscrever{
+		width: 32%;
+	}
+	.button-inscrever p{
+		font-size: 16px;
+	}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-	
+	.centered{
+		width: 580px;
+	}
+	.button-inscrever {
+	    width: 42%;
+	}
 }
  
 /* Landscape phones and down */
-@media (max-width: 480px) { 
-	
+@media (max-width: 500px) { 
+	.centered{
+		width: 320px;
+		padding: 44px 0;
+	}
+	.logo{
+		margin:0 20px;
+	}
+	.logo svg{
+		width: 160px;
+		height: auto;
+	}
+	.thunder img{
+		width: 54px;
+		height: auto;
+	}
+	.info-block {
+	    margin-top: -58px;
+	}
+	.info-block h2{
+		font-size: 84px;
+	}
+	.info-block h4 {
+	    font-size: 26px;
+	    margin-top: -34px;
+	}
+	.info-block h3 {
+	    font-size: 64px;
+	    margin-top: -20px;
+	}
+	.button-inscrever {
+	    margin-top: 12px;
+	    width: 70%;
+	}
+}
+@media (max-width: 380px) { 
+	.centered{
+		width: 300px;
+		padding: 40px 0;
+	}
+	.logo{
+		margin: 0 10px;
+	}
+	.info-block{
+		margin-top:-48px;
+	}
+	.info-block h2 {
+	    font-size: 74px;
+	}
+	.info-block h4 {
+	    margin-top: -26px;
+	}
+
 }
