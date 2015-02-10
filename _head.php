@@ -41,13 +41,9 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	<link rel="shortcut icon" href="<?= 'http://'. $_SERVER["SERVER_NAME"] ?>/favicon.png" type="image/png"> <!-- link absoluto do favicon -->
 
-
-
-	<? include '_css.php'; ?>
-	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-
-
+	<!-- CSS compilado e minificado -->
+	<link rel="stylesheet" href="assets/css/build/style.min.css">
 
 	<meta charset="UTF-8">
-	<title>LincePlate Turbo 2.0</title>
+	<title>Rock and Code Arena - Front in Aracaju 2015</title>
 </head> 

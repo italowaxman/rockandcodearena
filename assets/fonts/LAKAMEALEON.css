@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LAKAMEALEON';
+    src: url('fonts/LAKAMEALEON.eot');
+    src: url('fonts/LAKAMEALEON.eot') format('embedded-opentype'),
+         url('fonts/LAKAMEALEON.woff2') format('woff2'),
+         url('fonts/LAKAMEALEON.woff') format('woff'),
+         url('fonts/LAKAMEALEON.ttf') format('truetype'),
+         url('fonts/LAKAMEALEON.svg#LAKAMEALEON') format('svg');
+}

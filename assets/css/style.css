@@ -92,13 +92,82 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'LAKAMEALEON';
+    src: url('../../fonts/LAKAMEALEON.eot');
+    src: url('../../fonts/LAKAMEALEON.eot') format('embedded-opentype'),
+         url('../../fonts/LAKAMEALEON.woff2') format('woff2'),
+         url('../../fonts/LAKAMEALEON.woff') format('woff'),
+         url('../../fonts/LAKAMEALEON.ttf') format('truetype'),
+         url('../../fonts/LAKAMEALEON.svg#LAKAMEALEON') format('svg');
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'LAKAMEALEON';
+    font-weight: lighter;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+  background: #000; 
+}
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../../../assets/images/bg-poster-video.jpg) no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.effect-video{
+    background: url(../../../assets/images/bg-effect-video.png) repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.stopfade { 
+   opacity: .5;
+}
 
+/* This parent can be any width and height */
+.block {
+  text-align: center;
+  height: 100%;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
 
-
-
-
-
-
+/* The element to be centered, can
+   also be of any width and height */ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  margin: 0 auto;
+}
 
 
 
