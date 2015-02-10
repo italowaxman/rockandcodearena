@@ -1,0 +1,23 @@
+{
+  "name": "rock-code-arena",
+  "version": "1.0.0",
+  "title": "Rock and Code - Arena",
+  "homepage": "http://www.frontinaracaju.com.br",
+  "description": "2º do edição do Rock and Code o maior evento de front-end do nordeste.",
+  "author": {
+    "name": "Alfama Web",
+    "url": "http://www.alfamaweb.com.br",
+    "email": "contato@alfamaweb.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/italowaxman/rockandcodearena"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "load-grunt-tasks": "~0.1.0"
+  }
+}
