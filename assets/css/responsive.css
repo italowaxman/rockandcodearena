@@ -43,16 +43,40 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	html { 
+		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+	}
+  	#bg-video { display: none; }
 	.centered{
-		width: 580px;
+		width: 500px;
+		padding: 48px 0;
+	}
+	.logo{
+		margin: 0 10px;
+		height: 244px;
+	}
+	.logo svg{
+		width: 230px;
+		height: 230px;
+	}
+	.thunder svg {
+	width: 65px;
+	height: 100px;
 	}
 	.button-inscrever {
 	    width: 42%;
+	}
+	.pause-button{
+		display: none;
 	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 500px) { 
+	html { 
+		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+	}
+  	#bg-video { display: none; }
 	.centered{
 		width: 320px;
 		padding: 44px 0;
@@ -60,13 +84,16 @@
 	.logo{
 		margin:0 20px;
 	}
+	.logo{
+		height: 200px;
+	}
 	.logo svg{
 		width: 160px;
-		height: auto;
+		height: 190px;
 	}
-	.thunder img{
+	.thunder svg{
 		width: 54px;
-		height: auto;
+		height: 70px;
 	}
 	.info-block {
 	    margin-top: -58px;
@@ -86,11 +113,18 @@
 	    margin-top: 12px;
 	    width: 70%;
 	}
+	.pause-button{
+		display: none;
+	}
 }
 @media (max-width: 380px) { 
+	html { 
+		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+	}
+  	#bg-video { display: none; }
 	.centered{
 		width: 300px;
-		padding: 40px 0;
+		padding: 50px 0;
 	}
 	.logo{
 		margin: 0 10px;
@@ -103,6 +137,9 @@
 	}
 	.info-block h4 {
 	    margin-top: -26px;
+	}
+	.pause-button{
+		display: none;
 	}
 
 }

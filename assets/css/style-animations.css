@@ -312,19 +312,19 @@ slideExpandUp
 
 @-webkit-keyframes slideExpandUp {
 	0% {
-		-webkit-transform: translateY(100%) scaleX(0.5);
+		-webkit-transform: translateY(100%) scaleX(1);
 	}
 	30%{
-		-webkit-transform: translateY(-8%) scaleX(0.5);
+		-webkit-transform: translateY(-8%) scaleX(1);
 	}	
 	40%{
-		-webkit-transform: translateY(2%) scaleX(0.5);
+		-webkit-transform: translateY(2%) scaleX(1);
 	}
 	50%{
-		-webkit-transform: translateY(0%) scaleX(1.1);
+		-webkit-transform: translateY(0%) scaleX(1.2);
 	}
 	60%{
-		-webkit-transform: translateY(0%) scaleX(0.9);		
+		-webkit-transform: translateY(0%) scaleX(0.85);		
 	}
 	70% {
 		-webkit-transform: translateY(0%) scaleX(1.05);
