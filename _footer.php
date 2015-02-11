@@ -1,6 +1,3 @@
-<footer>
-
-</footer><!-- fim footer-->
 
 <!-- Scripts minificados e concatenados -->
 <script src="assets/js/build/all.min.js"></script>

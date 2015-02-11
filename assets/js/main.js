@@ -15,7 +15,10 @@ $(document).ready(function() {
 	setTimeout(function() { $(".pause-button").addClass("slideDown")}, 4400);
 	setTimeout(function() { $(".youtube-button").addClass("slideDown")}, 4600);
 	setTimeout(function() { $(".git-button").addClass("slideDown")}, 4700);
-	setTimeout(function() { $(".face-button").addClass("slideDown")}, 4800);		
+	setTimeout(function() { $(".face-button").addClass("slideDown")}, 4800);
+
+	setTimeout(function() { $(".chamada-video").addClass("bigEntrance")}, 5200);
+	setTimeout(function() { $(".youtube-button").addClass("opacity")}, 6000);		
 });
 
 var vid = document.getElementById("bg-video");

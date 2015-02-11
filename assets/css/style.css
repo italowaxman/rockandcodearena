@@ -288,7 +288,15 @@ video {
 .pause-button:hover{
   background: rgba(251,230,100,0.85);
 }
-
+.chamada-video{
+    color: #fbe664;
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
+    position: relative;
+    z-index: 10;
+    visibility: hidden;
+}
 
 
 
