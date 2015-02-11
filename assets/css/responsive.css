@@ -45,6 +45,7 @@
 @media (max-width: 767px) {
 	html { 
 		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+		background-size: cover;
 	}
   	#bg-video { display: none; }
 	.centered{
@@ -75,6 +76,7 @@
 @media (max-width: 500px) { 
 	html { 
 		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+		background-size: cover;
 	}
   	#bg-video { display: none; }
 	.centered{
@@ -120,6 +122,7 @@
 @media (max-width: 380px) { 
 	html { 
 		background: url(../../../assets/images/bg-poster-video.jpg) no-repeat center center fixed; 
+		background-size: cover;
 	}
   	#bg-video { display: none; }
 	.centered{

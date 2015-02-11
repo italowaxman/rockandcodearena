@@ -33,7 +33,7 @@
 						<h3 class="">05<span>SET</span>15</h3>
 					</div>
 					<div class="buttons-block fadeIn">
-						<a href="#" class="button-inscrever">
+						<a href="http://www.eventick.com.br/rock-and-code-arena-front-in-a" class="button-inscrever" target="_blank">
 							<h4>INSCREVA-SE</h4>
 							<p>LOTE PROMOCIONAL</p>
 						</a>

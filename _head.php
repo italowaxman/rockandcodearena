@@ -13,25 +13,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!--  site com responsivo -->
 
 	<!-- Core Meta Data -->
-	<meta name="author" content="LincePlate">
-	<meta name="description" content="Descrição do site">
-	<meta name="keywords" content="Palavras chave do site aqui">
+	<meta name="author" content="Alfama Web">
+	<meta name="description" content="Um evento repleto de código e rock n’ roll dia 05 de Setembro. Front-end + rock = Combinação Explosiva!">
+	<meta name="keywords" content="parallax,responsive,jquery,ux,frontend,backend,startups,tecnologia,mobile,empreendedorismo,design">
 
 	<!-- Facebook Tags -->
-	<meta property="og:description" content="Descrição do projeto aqui">
-	<meta property="og:image" content="Endereço do site /avatar_face.png">
-	<meta property="og:site_name" content="Nome do Site">
-	<meta property="og:title" content="Título do Site">
+	<meta property="og:description" content="Um evento repleto de código e rock n’ roll dia 05 de Setembro. Front-end + rock = Combinação Explosiva!">
+	<meta property="og:image" content="<?= 'http://'. $_SERVER["SERVER_NAME"] ?>/thumbnail.png">
+	<meta property="og:site_name" content="Front in Aracaju">
+	<meta property="og:title" content="Rock and Code Arena - Front in Aracaju">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="<?= 'http://'. $_SERVER["SERVER_NAME"] ?>">
 
 	<!-- Twitter tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content=" Endereço do site aqui">
-	<meta name="twitter:creator" content="Usuário do Twitter">
-	<meta name="twitter:title" content="Título aqui">
-	<meta name="twitter:description" content="Descrição do projeto aqui">
-	<meta name="twitter:image" content="<?= 'http://'. $_SERVER["SERVER_NAME"] ?>/avatar_face.png">
+	<meta name="twitter:site" content="http://www.frontinaracaju.com.br">
+	<meta name="twitter:creator" content="@frontinaracaju">
+	<meta name="twitter:title" content="Rock and Code Arena - Front in Aracaju">
+	<meta name="twitter:description" content="Um evento repleto de código e rock n’ roll dia 05 de Setembro. Front-end + rock = Combinação Explosiva!">
+	<meta name="twitter:image" content="<?= 'http://'. $_SERVER["SERVER_NAME"] ?>/thumbnail.png">
 
 	<!-- Humans -->
 	<link rel="author" href="humans.txt" />
